@@ -962,7 +962,6 @@ responsive area
 #padbottom
 {
     padding-bottom: 2em;
-    margin-bottom: ;
 }
 #marbottom
 {
@@ -1007,4 +1006,26 @@ responsive area
 #lg
 {
     background-color: lightgray;
+}
+
+.phone-container,
+.mail-container{
+    display: flex;
+    align-items: center;
+}
+
+.phone-container img,
+.mail-container img {
+    width: 40px;
+    margin: 10px;
+}
+
+
+.phone-container{
+    justify-content: flex-end;
+}
+
+
+.navbar-right a{
+    font-size: 18px!important;
 }

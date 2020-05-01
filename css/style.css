@@ -1017,10 +1017,15 @@ responsive area
 .phone-container img,
 .mail-container img {
     width: 40px;
-    margin: 5px;
+    margin: 10px;
 }
 
 
 .phone-container{
     justify-content: flex-end;
+}
+
+
+.navbar-right a{
+    font-size: 18px!important;
 }

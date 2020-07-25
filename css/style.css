@@ -1029,3 +1029,18 @@ responsive area
 .navbar-right a{
     font-size: 18px!important;
 }
+
+.carousel-inner  {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-gallery  img {
+    width: 100%;
+    height: 485px!important;
+    object-fit: cover;
+}
+
+.carousel-gallery .item.active {
+    width: 100%;
+}
